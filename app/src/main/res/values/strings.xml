@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Stock Taker</string>
+    <string name="txt_fams">FAMS</string>
+    <string name="txt_t3k">Made in T3K Technology</string>
+    <string name="text_loginId">Login Id</string>
+    <string name="text_password">Password</string>
+    <string name="text_device_name">Device Name</string>
+    <string name="password_hint">Secret Password</string>
+    <string name="pwd_submit">submit</string>
+    <string name="action_http">Server Address :</string>
+    <string name="ip_address">Configure Server URL!</string>
+    <string name="ip_submit">Change</string>
+    <string name="testing">Connect-URL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //server change setting
+    <string name="action_settings">Settings</string>
+    <string name="text_setting">Server Setting</string>
+    <string name="txt_api_server_setting">API Server Setting</string>
+    <string name="txt_protocol">Protocol</string>
+    <string name="txt_domain_name">Domain Name</string>
+    <string name="txt_ip_address">IP Address</string>
+    <string name="txt_contents_path">Contents Path</string>
+
+
+    //title text
+    <string name="title_t3k">T3K</string>
+    <string name="title_technology">Technology</string>
+    <string name="title_fams">Fixed Asset Management System</string>
+    <string name="title_stock_taker">Stock Taker</string>
+    <string name="title_stock_taking">Stock Taking</string>
+    <string name="title_enter_pin">Enter PIN Number To Continue</string>
+    <string name="title_server_setting">API Server Setting</string>
+    <string name="title_protocol">Protocol</string>
+    <string name="title_no_register">Application Not Register !!!</string>
+    <string name="title_no_license">Application Has No License !!!</string>
+    <string name="title_register_fail">Application Registration Failed !!!</string>
+    <string name="title_registration">Application Registration</string>
+    <string name="title_license_request">Application License Request</string>
+    <string name="title_request_pending">Request Pending !!!</string>
+    <string name="title_request_fail">Request Failed !!!</string>
+    <string name="title_no_extra_license">No Extra License !!!</string>
+    <string name="title_device_inactive">Device In-Active</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_downloaded_location">Downloaded Location List</string>
+    <string name="title_upload">Upload</string>
+    <string name="dialog_location_title">Select Location For Download</string>
+    <string name="title_download_confirm">Download Confirm</string>
+    <string name="title_upload_confirm">Upload Confirm</string>
+    <string name="title_selected_location_list">Selected Location List</string>
+
+
+    //error message editText
+    <string name="error_empty_domain_name">Domain Name must not be empty.</string>
+    <string name="error_empty_ip_address">IP Address must not be empty.</string>
+    <string name="error_empty_contacts_path">Contacts Path must not be empty.</string>
+    <string name="error_empty_device_name">Device Name must not be empty.</string>
+    <string name="error_empty_login_id">LoginId must not be empty.</string>
+    <string name="error_empty_password">Password must not be empty.</string>
+    <string name="error_invalid_credentials">Invalid Credentials</string>
+    <string name="error_invalid_domain_name">This Domain Name is invalid.</string>
+    <string name="error_invalid_ip_address">This IP Address is invalid.</string>
+    <string name="error_min_password">This password is too short.at least 4 number.</string>
+    <string name="error_max_device_name">Device Name length should not be grater than 30.</string>
+    <string name="empty_login_id">Please enter your LoginID.</string>
+    <string name="empty_password">Please enter your Password.</string>
+
+
+    //error message text
+    <string name="error_no_register">Currently, you application is not registered to the FAMS System for using on this device. \n
+        \n
+        To continue, your application and device must be registered.</string>
+    <string name="error_no_license">Currently, you application has no license for using on this device. \n
+        \n
+        To continue, your application must have license key.</string>
+    <string name="error_fail_register">Error occurred when registering your application information to the server.</string>
+    <string name="error_license_request">Requesting license for your application has been successfully finished and it is in pending state. \n
+        \n
+        For next steps, your admin needs to approve license requests</string>
+    <string name="error_license_request_fail">Error occurred when requesting your application license from the server.</string>
+    <string name="error_no_extra_license">Currently, there is no extra license key for your application. \n
+        \n
+        Buy more license key for Stock Taker.</string>
+    <string name="error_device_inactive">Currently, your device has been blocked transaction to the server by your administrator.</string>
+    <string name="warning_down_confirm">Are you sure, you went to download assets for selected locations? \n
+        \n
+        We have to make sure because downloading will remove all previous download information and StockTake data from this device.</string>
+    <string name="warning_upload_confirm">Are you sure you went to upload stockTake \n
+        for the selected location?</string>
+    <string name="txt_no_location">No Locations !!!</string>
+    <string name="txt_no_uploaded_history">No Uploaded History !!!</string>
+    <string name="all_uploaded">Assets are uploaded!</string>
+
+
+    //err message text
+    <string name="err_contact_administrator">Please contact your administrator.</string>
+    <string name="err_no_license">Request your license by using the following button.</string>
+    <string name="err_no_register">Go for registration by using the following button.</string>
+    <string name="dialog_session_expired">Session Expired!
+        \n
+    Please login again!</string>
+
+
+    //simple text
+    <string name="txt_category">Category</string>
+    <string name="txt_cost_center">Cost Center</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_condition">Condition</string>
+    <string name="txt_item_name">Item Name</string>
+    <string name="txt_not_taken">NOT TAKEN</string>
+    <string name="txt_scanned">SCANNED</string>
+    <string name="txt_noted">NOTED</string>
+    <string name="txt_unknown">UNKNOWN</string>
+    <string name="txt_opr">Operational</string>
+    <string name="txt_last_sync">Last Sync :</string>
+
+    //hint text
+    <string name="hint_remark">Remark</string>
+
+
+    //button text
+    <string name="btn_continue">continue</string>
+    <string name="btn_text_register">Register</string>
+    <string name="btn_text_license">Request</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_check">Check</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_back">Back</string>
+    <string name="txt_buttonLogin">Login</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_choose">Choose</string>
+    <string name="btn_go_for_stock_take">Go For Stock Take</string>
+    <string name="btn_go_for_upload">Go For Upload</string>
+    <string name="btn_upload">Upload</string>
+    <string name="btn_done">DONE</string>
+    <string name="btn_ok">OK</string>
+
+    //navigation text
+    <string name="nav_title_home">Home</string>
+    <string name="nav_title_download_asset">Download Assets</string>
+    <string name="nav_title_stock_taking">Stock Taking</string>
+    <string name="nav_title_upload_asset">Upload Result</string>
+    <string name="nav_title_location">Location List</string>
+    <string name="nav_title_uploaded_asset">Uploaded Asset</string>
+    <string name="nav_title_exit">Exit</string>
+
+    //menu text
+    <string name="menu_reload">Location Sync</string>
+
+    //content description
+    <string name="img_visible">visible password</string>
+    <string name="img_profile_pic">Profile Picture</string>
+    <string name="img_fams_logo">fams logo</string>
+    <string name="reload">reload</string>
+    <string name="img_camera">camera</string>
+    <string name="img_image">Image</string>
+    <string name="img_delete">delete</string>
+    <string name="img_scan">scan</string>
+    <string name="img_description">description</string>
+
+    //for uploaded history
+    <string name="txt_space">-</string>
+    <string name="txt_fa_no">FANumber</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_upload_time">UploadTime</string>
+    <string name="txt_stock_take_time">Stock-Take-Time</string>
+
+
+    //protocol arrays for spinner
+    <string-array name="protocol_arrays">
+        <item>HTTP </item>
+        <item>HTTPS (Secure HTTP)</item>
+    </string-array>
+
+    //Tab label text
+    <string name="textTabTitle1">Remain</string>
+    <string name="textTabTitle2">Taken</string>
+    <string name="textTabTitle3">UnKnown</string>
+
+    //scan
+    <string name="scan_init_failure_info">Scanning Data Fail! Please Retry</string>
+
+    //QRCode scan text
+    <string name="turn_off_flashlight">FlashLight on</string>
+    <string name="turn_on_flashlight">flashLight off</string>
+    <string name="message">Place a barcode inside the viewfinder rectangle to scan it.</string>
+
+</resources>
